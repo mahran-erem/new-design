@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+<title>إرم نيوز</title>
+<meta name="viewport" content="width=device-width, user-scalable=1, initial-scale=1.0, minimum-scale=0.1, maximum-scale=10.0">
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/custom.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/dark-theme.css">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+ <header class="header">
+<div class="container-fluid">
+    <div class="header-section">
+		<a href="#" class="mobile-menu" title=""><i class="fa fa-menu" aria-hidden="true"></i></a>
+		<a href="#" class="logo" title=""><span class="d-none">Logo</span></a>
+		<nav class="nav-holder" id="nav-bar">
+		<ul class="mainnav" role="menu">
+		  <li class="dark-icon" ><a href="javascript:void(0);" ><i class="fa fa-dark" aria-hidden="true"></i></a></li>
+          <li><a href="javascript:void(0);" title="آخر الأخبار"  class="latest-news" >آخر الأخبار</a></li>
+          <li class="dropdown"><a href="javascript:void(0);" title="أخبار" class="news-dark">أخبار</a>
+			<ul class="dropdown-menu" >
+			   <li><a title="العالم العربي" href="javascript:void(0);">العالم العربي</a></li>   
+			   <li><a title="الإمارات" href="javascript:void(0);" >الإمارات</a></li>   
+			   <li><a title="السعودية" href="javascript:void(0);">السعودية</a></li>  
+			   <li><a title="مصر" href="javascript:void(0);">مصر</a></li>   
+			   <li><a title="اليمن" href="javascript:void(0);">اليمن</a></li>  
+			   <li><a title="الخليج" href="javascript:void(0);">الخليج</a></li>   
+			   <li><a title="العالم" href="javascript:void(0);">العالم</a></li>   
+			   <li><a title="تقارير خاصة" href="javascript:void(0);">تقارير خاصة</a></li>   
+			   <li><a title="المغرب العربي" href="javascript:void(0);">المغرب العربي</a></li>   
+			</ul>
+		  </li>
+          <li class="dropdown"><a href="javascript:void(0);" title="اتجاهات" class="trends">اتجاهات</a>
+			<ul class="dropdown-menu" role="menu">
+			   <li><a title="مقالات مختارة" href="javascript:void(0);">مقالات مختارة</a></li>  
+			   <li><a title="مدونات" href="javascript:void(0);">مدونات</a></li>
+			</ul>
+		  </li>
+          <li class="dropdown"><a href="javascript:void(0);" title="رياضة" class="sports-green">رياضة</a>
+			<ul class="dropdown-menu" >
+			  <li><a title="كرة القدم" href="javascript:void(0);">كرة القدم</a></li>
+			  <li><a title="كرة  عالمية" href="javascript:void(0);">كرة  عالمية</a> </li> 
+			  <li><a title="إسبانيا" href="javascript:void(0);">إسبانيا</a></li>
+			  <li><a title="إيطاليا" href="javascript:void(0);">إيطاليا</a></li>
+			  <li><a title="إنجلترا" href="javascript:void(0);">إنجلترا</a></li>
+			  <li><a title="دوري أبطال آسيا" href="javascript:void(0);">دوري أبطال آسيا</a></li>
+			  <li><a title="دوري أبطال أوروبا" href="javascript:void(0);">دوري أبطال أوروبا</a></li>
+			  <li><a title="دوري أبطال إفريقيا" href="javascript:void(0);">دوري أبطال إفريقيا</a></li>
+			  <li><a title="كرة عربية" href="javascript:void(0);">كرة عربية</a></li>
+			  <li><a title="رياضة مغاربية" href="javascript:void(0);">رياضة مغاربية</a></li>
+			  <li><a title="مصر" href="javascript:void(0);">مصر</a></li>
+			  <li><a title="الإمارات" href="javascript:void(0);">الإمارات</a></li>
+			  <li><a title="السعودية" href="javascript:void(0);">السعودية</a></li>
+			  <li><a title="رياضات أخرى" href="javascript:void(0);">رياضات أخرى</a></li>
+			</ul>
+		  </li>
+		  <li class="dropdown"><a href="javascript:void(0);" title="اقتصاد" class="economy-orange">اقتصاد</a>
+			<ul class="dropdown-menu" role="menu">
+				<li><a title="أسواق المال" href="javascript:void(0);">أسواق المال</a></li>    
+				<li><a title="النفط  والطاقة" href="javascript:void(0);">النفط  والطاقة</a></li>    
+				<li><a title="بنوك" href="javascript:void(0);">بنوك</a></li>    
+				<li><a title="سياحة وسفر" href="javascript:void(0);">سياحة وسفر</a></li>    
+				<li><a title="شركات" href="javascript:void(0);">شركات</a></li>    
+				<li><a title="عقارات" href="javascript:void(0);">عقارات</a></li>    
+			</ul>
+		  </li>
+		  <li class="dropdown"><a href="javascript:void(0);" title="ثقافة" class="culture-gold">ثقافة</a>
+			<ul class="dropdown-menu">
+				<li><a title="ترجمة" href="javascript:void(0);">ترجمة</a></li>
+				<li><a title="حوار" href="javascript:void(0);">حوار</a></li>
+				<li><a title="سينما" href="javascript:void(0);">سينما</a></li>
+				<li><a title="مسرح" href="javascript:void(0);">مسرح</a></li>
+				<li><a title="صورة من قرب" href="javascript:void(0);">صورة من قرب</a></li>   
+				<li><a title="فنون تشكيلية" href="javascript:void(0);">فنون تشكيلية</a></li>   
+				<li><a title="كتب" href="javascript:void(0);">كتب</a></li>   
+			</ul>
+		  </li>
+		  <li class="dropdown"><a href="javascript:void(0);" title="منوعات" class="mix-pink">منوعات</a>
+			<ul class="dropdown-menu">
+				<li><a title="فن ومشاهير" href="javascript:void(0);">فن ومشاهير</a></li>    
+				<li><a title="مجتمع" href="javascript:void(0);">مجتمع</a></li>    
+				<li><a title="قضايا" href="javascript:void(0);">قضايا</a></li>   
+				<li><a title="حوادث" href="javascript:void(0);">حوادث</a></li>    
+				<li><a title="صحة" href="javascript:void(0);">صحة</a></li>   
+				<li><a title="موضة وأزياء" href="javascript:void(0);">موضة وأزياء</a></li>    
+				<li><a title="بيئة ومناخ" href="javascript:void(0);">بيئة ومناخ</a></li>
+			</ul>
+		  </li>
+		   <li class="dropdown"><a href="javascript:void(0);" title="علوم وتقنية" class="tech-blue">علوم وتقنية</a>
+			<ul class="dropdown-menu">
+				<li><a title="انترنت" href="javascript:void(0);">انترنت</a></li>
+				<li><a title="هواتف ذكية" href="javascript:void(0);">هواتف ذكية</a></li>
+			</ul>
+		   </li>
+        </ul>
+		
+		<div class="menu-social-holder">
+			<a target="_blank" href="https://www.facebook.com/eremnewsme"><i class="fa social fa-facebook"></i></a> 
+            <a target="_blank" href="https://twitter.com/eremnews"><i class="fa social fa-twitter"></i></a>
+            <a target="_blank" href="https://www.instagram.com/eremnews/"><i class="fa social fa-instagram"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/company/eremnews/"><i class="fa social fa-linkedin"></i></a>
+		</div>	
+		
+		</nav>
+		<div class="top-social-holder">
+			<a href="javascript:void(0);" class="search-icon" ><i class="fa fa-search" aria-hidden="true"></i></a>	
+            <a target="_blank" href="https://www.facebook.com/eremnewsme"><i class="fa social fa-facebook"></i></a> 
+            <a target="_blank" href="https://twitter.com/eremnews"><i class="fa social fa-twitter"></i></a>
+            <a target="_blank" href="https://www.instagram.com/eremnews/"><i class="fa social fa-instagram"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/company/eremnews/"><i class="fa social fa-linkedin"></i></a>
+     		<a href="javascript:void(0);" class="dark-icon" ><i class="fa fa-dark" aria-hidden="true"></i></a>
+		</div>	 
+	</div>
+	<div class="search-holder" id="search-wrap" >
+		<div class="search-wrap">
+		<a href="javascript:void(0);" class="search-close" >
+			<i class="fa fa_close" aria-hidden="true"></i>
+		</a>				
+		<form class="search-form" role="search">
+			<input type="search" required="" class="search-control" id="s" name="q" placeholder="البحث في إرم نيوز…">
+            <button class="search-submit" type="submit" value="بحث"><i class="fa fa-search_" aria-hidden="true"></i><span class="screen-reader-text">بحث</span></button>
+		</form>
+		</div>
+		<div class="search-result">
+			<h3 class="search-title">نتائج بحث مقترحة</h3>
+			<div class="search-result-holder">
+			<article class="entry">
+			<figure>
+				<div class="media-holder">
+				<div class="read-timer">					
+					<a class="category" href="javascript:void(0);">أخبار</a>
+					<span class="read-time">منذ ساعة</span>
+				</div>
+				</div>			
+			<figcaption class="text">
+				<h3 class="entry-title">
+					<a href="javascript:void(0);">بالصور.. من هم الوزراء الخارجون من التشكيلة الحكومية في الامارات؟‏‎</a>
+				</h3>                
+			</figcaption>
+			</figure>
+			</article>
+			
+			<article class="entry">
+			<figure>
+				<div class="media-holder">
+				<div class="read-timer">					
+					<a class="category" href="javascript:void(0);">أخبار</a>
+					<span class="read-time">منذ ساعة</span>
+				</div>
+				</div>			
+			<figcaption class="text">
+				<h3 class="entry-title">
+					<a href="javascript:void(0);">بالصور.. من هم الوزراء الخارجون من التشكيلة الحكومية في الامارات؟‏‎</a>
+				</h3>                
+			</figcaption>
+			</figure>
+			</article>
+			
+			<article class="entry">
+			<figure>
+				<div class="media-holder">
+				<div class="read-timer">					
+					<a class="category" href="javascript:void(0);">أخبار</a>
+					<span class="read-time">منذ ساعة</span>
+				</div>
+				</div>			
+			<figcaption class="text">
+				<h3 class="entry-title">
+					<a href="javascript:void(0);">بالصور.. من هم الوزراء الخارجون من التشكيلة الحكومية في الامارات؟‏‎</a>
+				</h3>                
+			</figcaption>
+			</figure>
+			</article>
+			
+		</div>
+		<p class="result-info">تم إيجاد 20 نتيجة بحث ل الإمارات</p>
+		<div class="search-btn">
+			<a href="javascript:void(0);" class="btn btn-search">عرض كل النتائج</a>
+		</div>
+		
+		</div>
+	</div>
+</div>
+</header>
+ 
+ 
+<!-- Main -->
+<div class="main-section">
+<div class="container-fluid">
+	<h4 class="category-title science-category-title">علوم وتقنية</h4>
+	
+	<div class="columns section article-details-section">	
+		<div class="col-8">		
+		<div class="article-details">		
+		<figure class="media">
+			<img src="img/ar_details.jpg" class="img-responsive" alt="">
+		</figure>
+		<div class="article-updates">
+			<div class="label-hours-holder"><span class="label-hours">آخر تحديث: </span> <span> منذ 4 ساعات.</span> </div>
+			<div class="date-holder">
+				<span class="date-label"> تاريخ النشر:  </span>
+				<span class="date-label-hours"> 24 أكتوبر 2020 </span>
+			</div>
+		</div>
+		<h1 class="article-title">شركة تبتكر منصة تنقل ذكية يمكنها حمل أي سيارة كهربائية (صور وفيديو)</h1>
+		
+		<div class="source-holder">
+			<div class="font-manage">
+			<a href="javascript:void(0);" title="">+A</a>
+			<a href="javascript:void(0);" title="">-A</a>
+			</div>
+			<div class="source"><span>إرم نيوز</span> <span class="source-label"> : المصدر</span></div>
+		</div>
+		
+		<p>تبنت الشركة الإسرائيلية الناشئة (REE Automotive) نهجا مختلفا تماما عما هو سائد في سوق السيارات الكهربائية من تصنيع كامل للسيارات وتزويدها بالتقنيات الحديثة والذكية، حيث قررت ابتكار بنية منصة التنقل الإلكترونية التي تلبي احتياجات مجموعة واسعة من المركبات الكهربائية</p>
+		<!--
+		<iframe width="100%" height="515" src="https://www.youtube.com/embed/RnbSnVPFSNg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		--> <br>
+		<p>وقال دانييل باريل المؤسس المشارك والرئيس التنفيذي لشركة REE للسيارات، إن ”هناك طلبا كبيرا على المركبات الكهربائية، ولا سيما مركبات التوصيل الإلكتروني، مع محركات النمو التي تلبي معايير انبعاثات الكربون إلى جانب التجارة الإلكترونية المزدهرة.</p>
+		
+		<ul class="related-inside">
+			<li><a href="javascript:void(0);">ابتكار شاشة عرض ذكية تحافظ على العين</a></li>
+			<li><a href="javascript:void(0);">ابتكار شاشة عرض ذكية تحافظ على العين</a></li>
+		</ul>
+		<p><img src="img/ar_details_1.jpg" class="img-responsive" alt=""></p>
+		
+		<p>وأضاف دانييل: ”مع وضع ذلك في الاعتبار، فإن النظام الأساسي المعياري سيغير كيفية إدراكنا للتنقل الكهربائي اليوم، وتوفر منصتنا مساحة فارغة مثالية لعملائنا لبناء سيارات كهربائية مصممة وفقا لاحتياجاتهم“.</p>
+		
+		<div class="social-share-holder shadow">			
+			<div class="social-share">
+				<span class="social-share-label">شارك:</span>
+				<a href="javascript:void(0);"> <i class="fa social fa-facebook-share"></i> <span class="d-none">facebook</span></a>
+				<a href="javascript:void(0);"> <i class="fa social fa-twitter-share"></i> <span class="d-none">twitter</span></a>
+				<a href="javascript:void(0);"> <i class="fa social fa-whatsapp-share"></i> <span class="d-none">whatsapp</span> </a>
+				<a href="javascript:void(0);"> <i class="fa social fa-share-share"></i> <span class="d-none">share all</span></a>	 
+			</div>
+			<div class="social-share-title">اقترح تصحيحاً</div>
+		</div>
+		
+		</div>
+		
+		<div class="section google-news">
+			<p><a href="javascript:void(0);"><img src="img/google-news.png" alt=""></a></p>
+			<p><a href="javascript:void(0);"> تابعنا على منصة غوغل الإخبارية </a></p>
+		</div>
+
+		</div>
+		<!-- MPU -->
+		<div class="col-4">	
+  <div class="mpu stickysidebar"><a class="mpu-link" href="javascript:void(0);"><img src="img/mpu_large.jpg" alt="" ></a></div>	  
+</div>
+	</div>
+
+<!-- AD jubnaadserve -->
+<div class="ad_jubnaadserve">
+
+</div>
+
+<div class="columns section article-details-section">	
+		<div class="col-8">		
+		<div class="article-details">		
+		<figure class="media">
+			<img src="img/ar_details_se.jpg" class="img-responsive" alt="">
+		</figure>
+		<div class="article-updates">
+			<div>آخر تحديث: منذ 4 ساعات. </div>
+			<div>تاريخ النشر: 24 أكتوبر  2020</div>
+		</div>
+		<h1 class="article-title">ما الفرق بين iPhone 12 وسلفه iPhone 11 ؟</h1>
+		
+		<div class="source-holder">
+			<div class="font-manage">
+			<a href="javascript:void(0);" title="">+A</a>
+			<a href="javascript:void(0);" title="">-A</a>
+			</div>
+			<div class="source"><span>إرم نيوز</span> <span class="source-label"> : المصدر</span></div>
+		</div>
+		
+		 
+	 
+		<p>كشفت شركة أبل أمس الثلاثاء، النقاب عن 4 أنواع جديدة من هواتف آيفون 12: iPhone 12 وiPhone 12 Mini و iPhone 12 Pro و iPhone 12 Pro Max.</p>
+		<p> أكتوبر؛ الأمر الذي يجعل العديد من المستخدمين يفكرون في تجديد هواتفهم ويحتارون بين هاتف iPhone 11 الصادر العام الماضي وiPhone 12 الجديد.</p>
+		<p>ومن المقرر أن يكون iPhone 12  وiPhone 12 Pro متاحا، بدءا من 16 أكتوبر؛ الأمر الذي يجعل العديد من المستخدمين يفكرون في تجديد هواتفهم ويحتارون بين هاتف iPhone 11 الصادر العام الماضي وiPhone 12 الجديد.</p>
+		 
+		
+		<p class="read-more"><a href="javascript:void(0);" class="btn btn-read-more">اقرأ تتمة المقال</a></p>
+	 
+		 
+		
+		 
+	 
+		</div>
+		
+		<div class="section google-news">
+			<p><a href="javascript:void(0);"><img src="img/google-news.png" alt=""></a></p>
+			<p><a href="javascript:void(0);"> تابعنا على منصة غوغل الإخبارية </a></p>
+		</div>
+
+		</div>
+		<!-- MPU -->
+		<div class="col-4">	
+  <div class="mpu stickysidebar"><a class="mpu-link" href="javascript:void(0);"><img src="img/mpu_large.jpg" alt="" ></a></div>	  
+</div>
+	</div>
+	
+	
+<!-- Related news -->
+<div class="columns section">
+<h2 class="section-title"><a href="javascript:void(0);" title="">أخبار ذات صلة</a></h2>
+ 
+<div class="entries four-entry">	
+		<article class="entry">
+			<figure>
+				<div class="media-holder">
+				<a class="media" href="javascript:void(0);"><img src="img/sci_2.jpg" class="img-responsive" alt=""></a>
+				</div>			
+			<figcaption class="text">
+				<h3 class="entry-title">
+					<a href="javascript:void(0);">سامسونغ تكشف عن موعد إطلاق هاتفها القابل للطي "Galaxy W21 5G"</a>
+				</h3>                
+			</figcaption>
+			</figure>
+		</article>
+		<article class="entry">
+			<figure>
+				<div class="media-holder">
+				<a class="media" href="javascript:void(0);"><img src="img/sci_3.jpg" class="img-responsive" alt=""></a>
+				</div>			
+			<figcaption class="text">
+				<h3 class="entry-title">
+					<a href="javascript:void(0);">تغريم آبل نصف مليار دولار في قضية براءة اختراع</a>
+				</h3>                
+			</figcaption>
+			</figure>
+		</article>
+		<article class="entry">
+			  <figure>
+				<div class="media-holder">
+					<a class="media" href="javascript:void(0);"><img src="img/sci_4.jpg" class="img-responsive" alt=""></a>
+				</div>	              
+				<figcaption class="text">
+						<h3 class="entry-title">
+							<a href="javascript:void(0);"> مرسيدس - بنز تختبر ميزة "الطيار الآلي" بأحدث موديلاتها‎</a>
+						</h3>                
+				</figcaption>
+				</figure>
+			</article>
+ 
+		<article class="entry btn-entry">
+			<div class="btn-holder">
+			 <a href="javascript:void(0);" class="btn"> <span>عرض المزيد </span>  <span class="btn-arrow">←</span></a>			
+			 </div>
+		</article>
+	</div>
+</div>
+
+ 
+<!-- Most viewed Section -->
+<div class="columns section">
+	<h2 class="section-title"><a href="javascript:void(0);" title=""> الأكثر مشاهدة في الموقع </a></h2>
+	<div class="entries four-entry">
+		<article class="entry">
+				<figure>
+					<div class="media-holder">
+					<a class="media" href="javascript:void(0);"><img src="img/mix_d_1.jpg" class="img-responsive" alt="" ></a>
+					</div>			
+				<figcaption class="text">
+					<h3 class="entry-title">
+						<a href="javascript:void(0);"> ماكرون: حملة مقاطعة المنتجات الفرنسية "غير مقبولة"‎ وعلى أردوغان وقف "الأكاذيب" </a>
+					</h3>                
+				</figcaption>
+				</figure>
+			</article>
+		<article class="entry">
+				<figure>
+					<div class="media-holder">
+					<a class="media" href="javascript:void(0);"><img src="img/mix_d_2.jpg" class="img-responsive" alt="" ></a>
+					</div>			
+				<figcaption class="text">
+					<h3 class="entry-title">
+						<a href="javascript:void(0);"> تقرير: تركيا فجرت عمدا الأوضاع في "قره باغ" وبتخطيط مسبق</a>
+					</h3>                
+				</figcaption>
+				</figure>
+			</article>
+		<article class="entry">
+				  <figure>
+					<div class="media-holder">
+						<a class="media" href="javascript:void(0);"><img src="img/mix_d_3.jpg" class="img-responsive" alt="" ></a>
+					</div>	              
+					<figcaption class="text">
+							<h3 class="entry-title">
+								<a href="javascript:void(0);">يريفان تتهم تركيا بمنع طائرات تحمل مساعدات لأرمينيا من عبور أجوائها</a>
+							</h3>                
+					</figcaption>
+					</figure>
+				</article>
+			<article class="entry">
+				  <figure>
+					<div class="media-holder">
+						<a class="media" href="javascript:void(0);"><img src="img/mix_d_4.jpg" class="img-responsive" alt="" ></a>
+					</div>	              
+					<figcaption class="text">
+							<h3 class="entry-title">
+								<a href="javascript:void(0);">تقرير عبري: أمريكا توافق على تزويد إسرائيل بمقاتلات "F-22"</a>
+							</h3>                
+					</figcaption>
+					</figure>
+				</article>
+	</div>
+</div>
+ 
+</div>
+</div>
+
+<!--mobile Apps -->
+<div class="container-fluid">
+	<div class="mobile-apps">
+		<div class="mobile-apps-title"> حمل تطبيق ارم نيوز على هاتفك </div>
+		<div class="mobile-apps-links">
+			<a href="javascript:void(0);" class="btn app-button" title="">App Store <i class="fa fa-app-store"></i> </a>
+			<a href="javascript:void(0);"  class="btn app-button" title="">Google Play <i class="fa fa-google-play"></i></a>
+		</div>
+	</div>
+</div>
+
+<!-- footer -->
+<footer id="footer">
+	<div class="container-fluid">
+	<div class="footer-header">
+		<a href="#" class="logo" title=""><span class="d-none">Logo</span></a>
+		<div class="top-social-holder">
+			<a target="_blank" href="https://www.facebook.com/eremnewsme"><i class="fa social fa-facebook"></i></a> 
+            <a target="_blank" href="https://twitter.com/eremnews"><i class="fa social fa-twitter"></i></a>
+            <a target="_blank" href="https://www.instagram.com/eremnews/"><i class="fa social fa-instagram"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/company/eremnews/"><i class="fa social fa-linkedin"></i></a>
+     		
+		</div>
+	</div>
+</div>
+<div class="footermenumid">
+	<div class="container-fluid">
+		<!-- <h3 class="footer-section-title">اخر الأخبار </h3> -->
+		<div class="footer-mid-menu">
+		
+		<div class="footer-mid-wrap">
+		<ul class="mainnav">	 
+         
+		 <li><a href="javascript:void(0);" title="آخر الأخبار">آخر الأخبار</a></li>
+          <li class="dropdown"><a href="javascript:void(0);" title="أخبار">أخبار</a>
+			<ul class="dropdown-menu" >
+			   <li><a title="العالم العربي" href="javascript:void(0);">العالم العربي</a></li>   
+			   <li><a title="الإمارات" href="javascript:void(0);">الإمارات</a></li>   
+			   <li><a title="السعودية" href="javascript:void(0);">السعودية</a></li>  
+			   <li><a title="مصر" href="javascript:void(0);">مصر</a></li>   
+			   <li><a title="اليمن" href="javascript:void(0);">اليمن</a></li>  
+			   <li><a title="الخليج" href="javascript:void(0);">الخليج</a></li>   
+			   <li><a title="العالم" href="javascript:void(0);">العالم</a></li>   
+			   <li><a title="تقارير خاصة" href="javascript:void(0);">تقارير خاصة</a></li>   
+			   <li><a title="المغرب العربي" href="javascript:void(0);">المغرب العربي</a></li>   
+			</ul>
+		  </li>
+          <li class="dropdown"><a href="javascript:void(0);" title="اتجاهات">اتجاهات</a>
+			<ul class="dropdown-menu" role="menu">
+			   <li><a title="مقالات مختارة" href="javascript:void(0);">مقالات مختارة</a></li>  
+			   <li><a title="مدونات" href="javascript:void(0);">مدونات</a></li>
+			</ul>
+		  </li>
+          <li class="dropdown"><a href="javascript:void(0);" title="رياضة">رياضة</a>
+			<ul class="dropdown-menu" >
+			  <li><a title="كرة القدم" href="javascript:void(0);">كرة القدم</a></li>
+			  <li><a title="كرة  عالمية" href="javascript:void(0);">كرة  عالمية</a> </li> 
+			  <li><a title="إسبانيا" href="javascript:void(0);">إسبانيا</a></li>
+			  <li><a title="إيطاليا" href="javascript:void(0);">إيطاليا</a></li>
+			  <li><a title="إنجلترا" href="javascript:void(0);">إنجلترا</a></li>
+			  <li><a title="دوري أبطال آسيا" href="javascript:void(0);">دوري أبطال آسيا</a></li>
+			  <li><a title="دوري أبطال أوروبا" href="javascript:void(0);">دوري أبطال أوروبا</a></li>
+			  <li><a title="دوري أبطال إفريقيا" href="javascript:void(0);">دوري أبطال إفريقيا</a></li>
+			  <li><a title="كرة عربية" href="javascript:void(0);">كرة عربية</a></li>
+			  <li><a title="رياضة مغاربية" href="javascript:void(0);">رياضة مغاربية</a></li>
+			  <li><a title="مصر" href="javascript:void(0);">مصر</a></li>
+			  <li><a title="الإمارات" href="javascript:void(0);">الإمارات</a></li>
+			  <li><a title="السعودية" href="javascript:void(0);">السعودية</a></li>
+			  <li><a title="رياضات أخرى" href="javascript:void(0);">رياضات أخرى</a></li>
+			</ul>
+		  </li>
+		  </ul>
+		  </div>
+		  
+		  <div class="footer-mid-wrap mid-wrap-footernav">
+		<ul class="mainnav">
+		
+		  <li class="dropdown"><a href="javascript:void(0);" title="اقتصاد">اقتصاد</a>
+			<ul class="dropdown-menu" role="menu">
+				<li><a title="أسواق المال" href="javascript:void(0);">أسواق المال</a></li>    
+				<li><a title="النفط  والطاقة" href="javascript:void(0);">النفط  والطاقة</a></li>    
+				<li><a title="بنوك" href="javascript:void(0);">بنوك</a></li>    
+				<li><a title="سياحة وسفر" href="javascript:void(0);">سياحة وسفر</a></li>    
+				<li><a title="شركات" href="javascript:void(0);">شركات</a></li>    
+				<li><a title="عقارات" href="javascript:void(0);">عقارات</a></li>    
+			</ul>
+		  </li>
+		  
+		  <li class="dropdown"><a href="javascript:void(0);" title="ثقافة">ثقافة</a>
+			<ul class="dropdown-menu">
+				<li><a title="ترجمة" href="javascript:void(0);">ترجمة</a></li>
+				<li><a title="حوار" href="javascript:void(0);">حوار</a></li>
+				<li><a title="سينما" href="javascript:void(0);">سينما</a></li>
+				<li><a title="مسرح" href="javascript:void(0);">مسرح</a></li>
+				<li><a title="صورة من قرب" href="javascript:void(0);">صورة من قرب</a></li>   
+				<li><a title="فنون تشكيلية" href="javascript:void(0);">فنون تشكيلية</a></li>   
+				<li><a title="كتب" href="javascript:void(0);">كتب</a></li>   
+			</ul>
+		  </li>
+		  <li class="dropdown"><a href="javascript:void(0);" title="منوعات">منوعات</a>
+			<ul class="dropdown-menu">
+				<li><a title="فن ومشاهير" href="javascript:void(0);">فن ومشاهير</a></li>    
+				<li><a title="مجتمع" href="javascript:void(0);">مجتمع</a></li>    
+				<li><a title="قضايا" href="javascript:void(0);">قضايا</a></li>   
+				<li><a title="حوادث" href="javascript:void(0);">حوادث</a></li>    
+				<li><a title="صحة" href="javascript:void(0);">صحة</a></li>   
+				<li><a title="موضة وأزياء" href="javascript:void(0);">موضة وأزياء</a></li>    
+				<li><a title="بيئة ومناخ" href="javascript:void(0);">بيئة ومناخ</a></li>
+			</ul>
+		  </li>
+		   <li class="dropdown"><a href="javascript:void(0);" title="علوم وتقنية">علوم وتقنية</a>
+			<ul class="dropdown-menu">
+				<li><a title="انترنت" href="javascript:void(0);">انترنت</a></li>
+				<li><a title="هواتف ذكية" href="javascript:void(0);">هواتف ذكية</a></li>
+			</ul>
+		   </li>
+        </ul>
+		 </div>
+		 <div class="footer-mid-wrap other-all-links-wrap">
+			<ul class="other-all-links">
+			<li> <a href="javascript:void(0);" title=""> هيئة التحرير </a> </li>
+			<li> <a href="javascript:void(0);" title="">من نحن</a> </li>
+			<li> <a href="javascript:void(0);" title="">إعلانات</a> </li>
+			<li> <a href="javascript:void(0);" title="">سياسة النشر</a> </li>
+		</ul>
+		 </div>
+		  
+		</div>
+	</div>	
+</div>
+<div class="footerfoochia">
+	<div class="container-fluid">
+		<a target="_blank" href="https://www.foochia.com/"> موقع فوشيا </a>
+		
+		<div class="other-all-links-mobile">
+			<ul class="other-all-links">
+			<li> <a href="javascript:void(0);" title=""> هيئة التحرير </a> </li>
+			<li> <a href="javascript:void(0);" title="">من نحن</a> </li>
+			<li> <a href="javascript:void(0);" title="">إعلانات</a> </li>
+			<li> <a href="javascript:void(0);" title="">سياسة النشر</a> </li>
+		</ul>
+		 </div>
+	</div>		
+</div>	
+<div class="footermenubottom">
+	<div class="container-fluid">
+		<p class="copyright">جميع الحقوق محفوظة © 2020 شركة إرم ميديا</p>
+	</div>		
+</div>		
+</footer>
+
+</body>
+</html>

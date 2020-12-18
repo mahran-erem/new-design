@@ -1,0 +1,66 @@
+:root {
+  --Text_black: #101012;
+  --Card_bg-grey: #f9f9f9;
+  --Secondary_Grey: #8c8c8c;
+  --Darkmode_BG: #001c3c;
+  --Categoris_Gold: #dcae1e;
+  --Links_Tech_Blue: #009dff;
+  --Sports_Green: #00b910;
+  --logo-blue: #05386b;
+  --Economy_Orange: #df4901;
+  --Mix: #ac35a4;
+  --dark-navy-blue: #000a17;
+}
+ 
+#search-wrap, #nav-bar, .entries article.btn-entry .btn-holder a.btn, .header, .section, .columns ,body{ background: var(--dark-navy-blue);}
+figure{background-color: #001731;}
+
+.related-inside li a,
+.menu-active .dropdown-menu a,
+.dropdown-menu li a,
+.section-title a,
+.mix .section-title a,
+.sports .section-title a,
+.economy .section-title a,
+.science .section-title a,
+.authors .text, .entry-title a, .mainnav a, body{color:#fff;}
+
+.header{border-bottom: solid 1px #08294f;}
+.videos-default {background-color: #011e40;}
+
+.article-updates{background-color: #001731;}
+
+.entries article.btn-entry .btn-holder a.btn{border: solid 2px #fff;color: #fff;}
+.videos-default .entries article.btn-entry .btn-holder a.btn{background-color: #011e40;}
+
+.entries article.btn-entry .btn-holder a.btn,
+.entries article.btn-entry .btn-holder a.btn:hover,
+.mix .entries article.btn-entry .btn-holder a.btn,
+.mix .entries article.btn-entry .btn-holder a.btn:hover,
+.sports .entries article.btn-entry .btn-holder a.btn,
+.sports .entries article.btn-entry .btn-holder a.btn:hover,
+.science .entries article.btn-entry .btn-holder a.btn, 
+.science .entries article.btn-entry .btn-holder a.btn:hover,
+.economy .entries article.btn-entry .btn-holder a.btn,
+.economy .entries article.btn-entry .btn-holder a.btn:hover {border: solid 2px #fff;color: #fff;background:none;}
+
+.fa-search {background: url(../img/dark-mode-search.svg) no-repeat;}
+.fa-dark{background: url(../img/light-mode-btn.svg) no-repeat;}
+.logo{background: url(../img/dark-logo.svg) no-repeat;}
+.fa-app-store{background: url(../img/dark-icon-apple.svg) no-repeat;}
+.fa-google-play {background: url(../img/dark-play-store.svg) no-repeat;}
+.fa-menu:before{background: url(../img/dark-menu.svg) no-repeat;}
+.menu-close .fa-menu:before, .fa_close:before{background: url(../img/dark-close.svg) no-repeat; background-size: contain;}
+
+ul.dropdown-menu{background-color: #001731;}
+
+.three-entry .entry figure, .four-entry .entry figure {border-bottom: 1px solid #011e40;}
+.three-entry .entry figure, .four-entry .entry figure,
+.search-result .read-timer, .search-result figure, .no-captions .read-timer {background:none;}
+.no-captions .read-timer a{color: var(--Links_Tech_Blue);}
+ 
+.videos-default .entries article.btn-entry .btn-holder a.btn{height:100%;}
+
+.google-news, .mobile-apps{border: solid 1px #011e40; }
+.mobile-apps-links a{background-color: #011e40;color:#fff;}
+.columns{-webkit-box-shadow: 0 2px 4px 0 rgba(0, 23, 49, 0.8);-moz-box-shadow: 0 2px 4px 0 rgba(0, 23, 49, 0.8); box-shadow: 0 2px 4px 0 rgba(0, 23, 49, 0.8)}
