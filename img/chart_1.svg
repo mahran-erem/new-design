@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="176" height="176" viewBox="0 0 176 176">
+    <defs>
+        <circle id="opnkbevyoa" cx="88" cy="88" r="88"/>
+        <circle id="42fcx7761b" cx="88" cy="88" r="88"/>
+        <mask id="bcc1up0t7c" width="176" height="176" x="0" y="0" fill="#fff" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox">
+            <use xlink:href="#opnkbevyoa"/>
+        </mask>
+        <mask id="jm879p2grd" width="176" height="176" x="0" y="0" fill="#fff" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox">
+            <use xlink:href="#42fcx7761b"/>
+        </mask>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g transform="translate(-1023 -592) translate(1023 592)">
+                <text fill="#009DFF" font-family="Roboto-Bold, Roboto" font-size="20" font-weight="bold">
+                    <tspan x="69.643" y="95">53%</tspan>
+                </text>
+                <use stroke="#05386B" stroke-dasharray="738 696" stroke-linejoin="round" stroke-width="40" mask="url(#bcc1up0t7c)" opacity=".2" xlink:href="#opnkbevyoa"/>
+                <use stroke="#009DFF" stroke-dasharray="300 696" stroke-linejoin="round" stroke-width="40" mask="url(#jm879p2grd)" xlink:href="#42fcx7761b"/>
+            </g>
+        </g>
+    </g>
+</svg>
