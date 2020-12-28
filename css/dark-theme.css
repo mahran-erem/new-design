@@ -12,42 +12,67 @@
   --dark-navy-blue: #000a17;
 }
  
-#search-wrap, #nav-bar, .entries article.btn-entry .btn-holder a.btn, .header, .section, .columns ,body{ background: var(--dark-navy-blue);}
-figure{background-color: #001731;}
-
-.advert-holder, .font-manage a, .related-inside li a, .menu-active .dropdown-menu a, .dropdown-menu li a, .section-title a, .mix .section-title a, .sports .section-title a, .economy .section-title a, .science .section-title a, .authors .text, .entry-title a, .mainnav a, body{color:#fff;}
-
-.header{border-bottom: solid 1px #08294f;}
-.videos-default {background-color: #011e40;}
-
-.article-updates{background-color: #001731;}
-
-.entries article.btn-entry .btn-holder a.btn{border: solid 2px #fff;color: #fff;}
-.videos-default .entries article.btn-entry .btn-holder a.btn{background-color: #011e40;}
-
-.entries article.btn-entry .btn-holder a.btn, .entries article.btn-entry .btn-holder a.btn:hover, .mix .entries article.btn-entry .btn-holder a.btn, .mix .entries article.btn-entry .btn-holder a.btn:hover, .sports .entries article.btn-entry .btn-holder a.btn,
-.sports .entries article.btn-entry .btn-holder a.btn:hover, .science .entries article.btn-entry .btn-holder a.btn, .science .entries article.btn-entry .btn-holder a.btn:hover, .economy .entries article.btn-entry .btn-holder a.btn, .economy .entries article.btn-entry .btn-holder a.btn:hover {border: solid 2px #fff;color: #fff;background:none;}
-
-.fa-search {background: url(../img/dark-mode-search.svg) no-repeat;}
-.fa-dark{background: url(../img/light-mode-btn.svg) no-repeat;}
-.logo{background: url(../img/dark-logo.svg) no-repeat;}
-.fa-app-store{background: url(../img/dark-icon-apple.svg) no-repeat;}
-.fa-google-play {background: url(../img/dark-play-store.svg) no-repeat;}
-.fa-menu:before{background: url(../img/dark-menu.svg) no-repeat;}
-.menu-close .fa-menu:before, .fa_close:before{background: url(../img/dark-close.svg) no-repeat; background-size: contain;}
-
-ul.dropdown-menu{background-color: #001731;}
-
-.three-entry .entry figure, .four-entry .entry figure {border-bottom: 1px solid #011e40;}
-.three-entry .entry figure, .four-entry .entry figure,
-.search-result .read-timer, .search-result figure, .no-captions .read-timer {background:none;}
-.no-captions .read-timer a{color: var(--Links_Tech_Blue);}
- 
-.videos-default .entries article.btn-entry .btn-holder a.btn{height:100%;}
-
-.google-news, .mobile-apps{border: solid 1px #011e40; }
-.mobile-apps-links a{background-color: #011e40;color:#fff;}
-.columns{-webkit-box-shadow: 0 2px 4px 0 rgba(0, 23, 49, 0.8);-moz-box-shadow: 0 2px 4px 0 rgba(0, 23, 49, 0.8); box-shadow: 0 2px 4px 0 rgba(0, 23, 49, 0.8)}
-.section-sub-menu{color:#fff;}
-.section-title-holder .section-dropdown-menu{background-color: #001731;}
-.section-title-holder .section-dropdown-menu a{color:#fff;}
+body.dark-mode #search-wrap, 
+body.dark-mode #nav-bar,
+body.dark-mode .entries article.btn-entry .btn-holder a.btn, 
+body.dark-mode .header, 
+body.dark-mode .section, 
+body.dark-mode .columns ,
+body.dark-mode{ background: var(--dark-navy-blue);}
+body.dark-mode figure{background-color: #001731;}
+body.dark-mode .advert-holder, 
+body.dark-mode .font-manage a, 
+body.dark-mode .related-inside li a, 
+body.dark-mode .menu-active .dropdown-menu a, 
+body.dark-mode .dropdown-menu li a, 
+body.dark-mode .section-title a, 
+body.dark-mode .mix .section-title a, 
+body.dark-mode .sports .section-title a, 
+body.dark-mode economy .section-title a, 
+body.dark-mode .science .section-title a, 
+body.dark-mode .authors .text, 
+body.dark-mode .entry-title a, 
+body.dark-mode .mainnav a, 
+body.dark-mode{color:#fff;}
+body.dark-mode .header{border-bottom: solid 1px #08294f;}
+body.dark-mode .videos-default {background-color: #011e40;}
+body.dark-mode .article-updates{background-color: #001731;}
+body.dark-mode .entries article.btn-entry .btn-holder a.btn{border: solid 2px #fff;color: #fff;}
+body.dark-mode .videos-default .entries article.btn-entry .btn-holder a.btn{background-color: #011e40;}
+body.dark-mode .search-control{background: none;}
+body.dark-mode .entries article.btn-entry .btn-holder a.btn, 
+body.dark-mode .entries article.btn-entry .btn-holder a.btn:hover, 
+body.dark-mode .mix .entries article.btn-entry .btn-holder a.btn, 
+body.dark-mode .mix .entries article.btn-entry .btn-holder a.btn:hover, 
+body.dark-mode .sports .entries article.btn-entry .btn-holder a.btn,
+body.dark-mode .sports .entries article.btn-entry .btn-holder a.btn:hover, 
+body.dark-mode .science .entries article.btn-entry .btn-holder a.btn, 
+body.dark-mode .science .entries article.btn-entry .btn-holder a.btn:hover, 
+body.dark-mode .economy .entries article.btn-entry .btn-holder a.btn, 
+body.dark-mode .economy .entries article.btn-entry .btn-holder a.btn:hover {border: solid 2px #fff;color: #fff;background:none;}
+body.dark-mode .fa-search {background: url(../img/dark-mode-search.svg) no-repeat;}
+body.dark-mode .fa-dark{background: url(../img/light-mode-btn.svg) no-repeat;}
+body.dark-mode .logo{background: url(../img/dark-logo.svg) no-repeat;}
+body.dark-mode .fa-app-store{background: url(../img/dark-icon-apple.svg) no-repeat;}
+body.dark-mode .fa-google-play {background: url(../img/dark-play-store.svg) no-repeat;}
+body.dark-mode .fa-menu:before{background: url(../img/dark-menu.svg) no-repeat;}
+body.dark-mode .menu-close .fa-menu:before, 
+body.dark-mode .fa_close:before{background: url(../img/dark-close.svg) no-repeat; background-size: contain;}
+body.dark-mode ul.dropdown-menu{background-color: #001731;}
+body.dark-mode .three-entry .entry figure, 
+body.dark-mode .four-entry .entry figure {border-bottom: 1px solid #011e40;}
+body.dark-mode .three-entry .entry figure, 
+body.dark-mode .four-entry .entry figure,
+body.dark-mode .search-result .read-timer, 
+body.dark-mode .search-result figure, 
+body.dark-mode .no-captions .read-timer {background:none;}
+body.dark-mode .no-captions .read-timer a{color: var(--Links_Tech_Blue);} 
+body.dark-mode .videos-default .entries article.btn-entry .btn-holder a.btn{height:100%;}
+body.dark-mode .google-news, 
+body.dark-mode .mobile-apps{border: solid 1px #011e40;}
+body.dark-mode .mobile-apps-links a{background-color: #011e40;color:#fff;}
+body.dark-mode .columns{-webkit-box-shadow: 0 2px 4px 0 rgba(0, 23, 49, 0.8);-moz-box-shadow: 0 2px 4px 0 rgba(0, 23, 49, 0.8); box-shadow: 0 2px 4px 0 rgba(0, 23, 49, 0.8)}
+body.dark-mode .section-sub-menu{color:#fff;}
+body.dark-mode .section-title-holder .section-dropdown-menu{background-color: #001731;}
+body.dark-mode .section-title-holder .section-dropdown-menu a{color:#fff;}
+body.dark-mode .search-result .entry{border-bottom: 1px solid #011e40;}
