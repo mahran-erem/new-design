@@ -22,6 +22,7 @@
 .mainnav li.culture a:hover{color:var(--Categoris_Gold)}
 .mainnav li.entertainment a:hover{color:var(--Mix)}
 .mainnav li.sciences-technology a:hover{color:var(--Links_Tech_Blue)}
+
 .mainnav li.news ul.dropdown-menu{border-top:1px solid var(--Text_black)}
 .mainnav li.opinion ul.dropdown-menu{border-top:1px solid var(--Secondary_Grey)}
 .mainnav li.sports ul.dropdown-menu{border-top:1px solid var(--Sports_Green)}
@@ -29,6 +30,8 @@
 .mainnav li.culture ul.dropdown-menu{border-top:1px solid var(--Categoris_Gold)}
 .mainnav li.entertainment ul.dropdown-menu{border-top:1px solid var(--Mix)}
 .mainnav li.sciences-technology ul.dropdown-menu{border-top:1px solid var(--Links_Tech_Blue)}
+
+
 .blue-theme{color:var(--Links_Tech_Blue)}
 body{direction:rtl;text-align:right;margin:0;padding:0;font-size:18px;font-family:'Almarai',sans-serif,serif}
 html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:#000;box-sizing:border-box;-ms-overflow-style:scrollbar}
@@ -351,6 +354,8 @@ body.dark-mode .section,
 body.dark-mode .columns ,
 body.dark-mode{ background: var(--dark-navy-blue);}
 body.dark-mode figure{background-color: #001731;}
+
+body.dark-mode .mainnav .news a:hover, 
 body.dark-mode .advert-holder, 
 body.dark-mode .font-manage a, 
 body.dark-mode .related-inside li a, 
@@ -365,6 +370,7 @@ body.dark-mode .authors .text,
 body.dark-mode .entry-title a, 
 body.dark-mode .mainnav a, 
 body.dark-mode{color:#fff;}
+
 body.dark-mode .header{border-bottom: solid 1px #08294f;}
 body.dark-mode .videos-default {background-color: #011e40;}
 body.dark-mode .article-updates{background-color: #001731;}
