@@ -52,7 +52,7 @@ body.dark-mode .economy .entries article.btn-entry .btn-holder a.btn,
 body.dark-mode .economy .entries article.btn-entry .btn-holder a.btn:hover {border: solid 2px #fff;color: #fff;background:none;}
 body.dark-mode .fa-search {background: url(../img/dark-mode-search.svg) no-repeat;}
 body.dark-mode .fa-dark{background: url(../img/light-mode-btn.svg) no-repeat;}
-body.dark-mode .logo{background: url(../img/dark-logo.svg) no-repeat;}
+body.dark-mode .logo{background: url(../img/dark-logo.svg) no-repeat; background-size: 100%;}
 body.dark-mode .fa-app-store{background: url(../img/dark-icon-apple.svg) no-repeat;}
 body.dark-mode .fa-google-play {background: url(../img/dark-play-store.svg) no-repeat;}
 body.dark-mode .fa-menu:before{background: url(../img/dark-menu.svg) no-repeat;}
